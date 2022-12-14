@@ -1,0 +1,29 @@
+:root
+{
+    --theme-color: #4e5eff;
+    --text-color: #000;
+    --text-color-second: #999;
+    --main-color: #fff;
+    --main-color-second: #eee;
+    --main-color-third: #ddd;
+}
+html
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ms.inline *
+{
+    display: inline-block;
+}
+.ms.hide
+{
+    display: none;
+}
+.ms.noscroll
+{
+    overflow: hidden;
+}
+/* .ms.widget
+{
+    
+} */

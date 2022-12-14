@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Connexion</title>
+</head>
+
+<body>
+    <form action="./script.php" method="post">
+        <h1>Connexion</h1>
+        <input type="text" id="goto" name="goto" value="../../" readonly class="ms hide">
+        <input type="text" id="returnto" name="returnto" value="../../signin" class="ms hide">
+        <input type="text" id="username" name="username" placeholder="Nom">
+        <input type="password" id="password" name="password" placeholder="Clé">
+        <!-- 
+            If this is a php file, uncomment this line and delete the previous one.
+            
+            <input type="password" id="password" name="password" placeholder="Clé" value="<?= $_GET['key'] ?>"> 
+        -->
+        <input type="submit" value="Connexion">
+    </form>
+</body>
+
+</html>

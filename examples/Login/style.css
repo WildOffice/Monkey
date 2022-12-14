@@ -1,0 +1,56 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+h1
+{
+    text-align: center;
+}
+form
+{
+    margin-top: 25px;
+    padding: 40px 60px;
+    border: 1px solid var(--main-color-second);
+    border-radius: 10px;
+    min-width: 600px;
+    flex-direction: column;
+    display: flex;
+}
+form div
+{
+    display: flex;
+    justify-content: stretch;
+}
+form div input:last-child
+{
+    margin-right: 0;
+}
+form div input
+{
+    width: 100%;
+    margin-right: 10px;
+}
+input, textarea
+{
+    border-radius: 10px;
+    border: none;
+    background-color: var(--main-color-second);
+    outline: none;
+}
+input[type="text"], input[type="date"], input[type="password"], textarea
+{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+input[type="submit"], input[type="button"]
+{
+    padding: 15px 25px;
+    cursor: pointer;
+}
+input[type="submit"]:hover, input[type="button"]:hover
+{
+    background-color: var(--main-color-third);
+}
